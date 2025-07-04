@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import load_pdfs_from_folder, chunk_text, create_faiss_index, load_faiss_index, get_embedder
 from groq import Groq
-
+#1st api- "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"
 # Set your Groq API key
 GROQ_API_KEY = "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"
 MODEL_NAME = "gemma2-9b-it"  # or use gemma-7b, llama3-8b, etc.
